@@ -1,0 +1,131 @@
+body{
+    background-color: #E0EBE8;
+    height: 90vh;
+}
+
+.calc-body{
+    background-color: #c0c0c0;
+    height: 500px;
+    width: 335px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 10px black;
+    position: relative;
+    padding: 5px;
+}
+
+.screen{
+    height: 99px;
+    background-color: #F5F5F5;
+    width: 310px;
+    margin: 9px auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.history{
+    /* border: 1px solid black; */
+    margin: 15px auto;
+    height: 25px ;
+}
+
+.calculation{
+    /* border: 1px solid black; */
+    height: 30px ;
+    margin: 10px auto;
+}
+
+.keyboard{
+    /* border: 1px solid red; */
+    height: 370px;
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.number{
+    /* padding: 11px 15px; */
+    border-radius: 30px;
+    border: 0px;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.operator,.clear,.delete,.equals{
+    /* padding: 11px 15px; */
+    border-radius: 30px;
+    border: 0px;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.empty{
+    height: 60px;
+    width: 60px;
+    visibility: hidden;
+}
+
+#C{
+    background-color: #ECF2FF
+}
+
+#CE{
+    background-color: #ECF2FF
+}
+
+#r{
+    background-color: #ECF2FF
+}
+
+#d{
+    background-color: #198754
+}
+
+#m{
+    background-color: #F8BF0A;
+}
+
+#a{
+    background-color: #1F90D6 ;
+}
+
+#s{
+    background-color: #A459D1 ;
+}
+
+#e{
+    background-color: #F16767;
+}
+
+#main{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+
+#secondary{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+    color: grey;
+}
+
